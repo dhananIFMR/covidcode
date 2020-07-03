@@ -2,6 +2,9 @@
 
 Demo Link: `https://sz-test-279001.uc.r.appspot.com`
 
+Demo Link 2: `https://velvety-tube-281911.el.r.appspot.com/`
+
+
 ## Running the code
 
 1. Ensure you have python3 installed
