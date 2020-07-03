@@ -126,7 +126,7 @@ def index(responses, summary_table):
             children=[
                 dbc.Col(
                     children=[
-                        html.H3(dcc.Link("Houeshold Challenges", href="household")),
+                        html.H3(dcc.Link("Household Challenges", href="household")),
                         household_plot,
                     ],
                     
