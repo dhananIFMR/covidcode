@@ -19,15 +19,20 @@ def make_jumbotron(link_text, link_href):
                             html.Div( children=[
                            html.H3("Introduction", className ="sub-head"),
                         
+                html.Div( children=[
+                html.Span(""" A new collaborative study by """, className="linklead"),
+                html.A('GAME', href='https://massentrepreneurship.org/', target='_blank'),
+                html.Span(""" and """, className="linklead"),
+                html.A('LEAD', href='https://ifmrlead.org/', target='_blank'),
+                html.Span(""" at Krea University seeks to capture the status of micro-enterprises in India during the COVID-19 crisis. Through a multidimensional survey of microbusinesses being conducted over six months, the study will capture key trends on the impact of the COVID crisis and government-mandated lockdowns on business livelihoods, employment, and the income of nano and microbusinesses.  Additionally, the survey will also provide reliable estimates on business and employment outcomes and gauge confidence levels of small businesses in the economy periodically.""", className="linklead"),
                 
-                html.P("""
-               A new collaborative study by GAME and LEAD at Krea University seeks to capture the status of micro-enterprises in India during the COVID-19 crisis. Through a multidimensional survey of microbusinesses being conducted over six months, the study will capture key trends on the impact of the COVID crisis and government-mandated lockdowns on business livelihoods, employment, and the income of nano and microbusinesses.  Additionally, the survey will also provide reliable estimates on business and employment outcomes and gauge confidence levels of small businesses in the economy periodically.
-.""",
-                className="lead"),
- html.Br(className=""),
-                html.P(""" This dashboard presents results from the ongoing survey and allows visitors to explore and visualise the data.""",
-                className="lead"),
+                html.Br(className=""),
                
+                html.Div(""" This dashboard presents results from the ongoing survey and allows visitors to explore and visualise the data.""",
+                className="linklead2"),
+                ],
+                        className="link-text"
+                        ),
                   
                        ],
                         className="desbox"
@@ -38,6 +43,7 @@ def make_jumbotron(link_text, link_href):
                   html.P("""
                     Our stratified, convenience sample was drawn from various sub-industries in manufacturing, services and trade to provide a sectoral representation of microbusinesses. The sample was selected from lists provided by partner organizations. The following regions and states will be covered in the survey: North India (Delhi, Haryana, Punjab, Uttar Pradesh), South India (Tamil Nadu), West India (Gujarat, Maharashtra, Rajasthan). The surveys were conducted telephonically in the area’s local language, and each survey took 18-25 minutes to administer .""",
                 className="leadrgt"),
+                 
 
                         ],
                         className="desbox"
