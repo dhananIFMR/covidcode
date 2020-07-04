@@ -9,9 +9,9 @@ from utils.playground import make_playground_header
 	
 def make_jumbotron(link_text, link_href):
     jumbotron = dbc.Jumbotron(
-        [   html.Div( children=[
-                        html.Img(src="/assets/lead-logo-new.png" , className="ifmrlogo"),
-                        html.Img(src="/assets/game-logo.png" , className="gamelogo"),
+        [   html.Div( children=[                        
+                        html.A([html.Img(src="/assets/lead-logo-new.png" , className="ifmrlogo")], href='https://ifmrlead.org/', target='_blank'),
+                        html.A([html.Img(src="/assets/game-logo.png" , className="gamelogo")], href='https://massentrepreneurship.org/', target='_blank'),
                     ],
                     className="head-box container", ),
                         html.Div( children=[
